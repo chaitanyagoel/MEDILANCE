@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <style type="text/css">
+            .header{
+					background-color:#fff;
+					height:100px;
+					width:100%;
+					z-index:1;
+	
+				}
+			.outer{
+					display:inline-block;
+					position:relative;
+				}
+			.inner{
+				display:none;
+				position:relative;
+				z-index:10;
+				background-color:white;	
+			}
+			.outer:hover .inner{
+				display:block;
+				position:absolute;
+			}
+			.header-logo img{
+				float:left;
+				padding:0px;
+				left:0px;
+				width: 250px;
+				height: auto;
+			}
+			 .header-list ul {
+				 text-shadow:10px gray;
+
+				float: right;
+				list-style-type: none;
+				margin-top: 20px;
+				margin-right:50px;
+			}
+			.header-list ul li{
+				display: inline-block; 
+				padding:10px 10px;
+				
+				
+			}
+			.header-list ul li a{
+				text-decoration: none;
+				color: #000;
+				padding: 10px 15px;
+				transition: 0.6s ease;
+			}
+			.header-list ul li a:hover, select:hover{
+				font-weight:6px;
+				color:#00bfff;	
+			}
+			.header-list select{
+				border:0px;
+			}
+			.btn{
+				width:200px;
+			  padding:10px;
+			  background-color:#00bfff;
+			  border:1px solid none;
+			  
+			}
+			.btn:hover{
+				box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+			}
+			table
+            {
+                margin-top:200px;
+            }
+            input[type=text]
+            {
+                width:600px;
+                border: none;
+                border-bottom: 2px solid red;
+                padding: 10px;
+            }
+            input::placeholder
+            {
+                color:gray;
+                font-size: 15px;
+            }
+            #btn
+            {
+                background-color: #223d7e;
+                color:white;
+                box-shadow: 0px 2px 2px 2px gray;
+                border: none;
+                padding: 5px 10px 5px 10px;
+                border-radius: 3px;
+            }
+            #btn:hover
+            {
+                background-color: white;
+                color: #223d7e;
+            }
+        </style>
+    </head>
+    <body>
+		<div class="header" id="myHeader">
+			<div class="header-logo">
+				<a href="index.html"><img src="logo1.png"></a>
+			</div>
+			<div class="header-list">
+			<ul>
+				<li><a href="About.html">About</a></li>
+				<li><a href="Login.php">Book Ambulance</a></li>
+				<li><a href="firstaid.html">DIY First Aid</a></li>
+				<li><div class="outer">
+						<p>Our services</p>
+						<div class="inner">
+							<ul>
+								<li><a href="air.html">Air Ambulance</a></li>
+								<li><a href="ICU.html">ICU At Home</a></li>
+								<li><a href="pay.html">Pay Now</a></li>
+							</ul>
+						</div>
+					</div></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="Login.php"><input type="button" value="LOGIN | SIGNUP" class="btn"></a></li>
+				
+			</ul>
+			</div>
+		</div>
+        <div class="container">
+            <table align="center" cellpadding="10px">
+                <tr><td>Enter your booking id</td></tr>
+                <tr><td><input type="text" placeholder="CMCXXXXXXXXXXX"></td></tr>
+                <tr><td><button type="button" id="btn">Pay Now</button></td></tr>
+            </table>
+        </div>
+    </body>
+</html>

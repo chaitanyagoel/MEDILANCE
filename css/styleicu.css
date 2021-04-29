@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:Times New Roman;
+}
+.header{
+	background-color:#fff;
+	height:100px;
+	width:100%;
+	z-index:1;
+	
+}
+.outer{
+	display:inline-block;
+	position:relative;
+}
+.inner{
+	display:none;
+	position:relative;
+	z-index:10;
+	background-color:white;
+
+	
+}
+.outer:hover .inner{
+	display:block;
+	position:absolute;
+}
+
+.header-logo img{
+	float:left;
+	padding:20px 20px;	
+	left:0px;
+	width: 200px;
+	height: auto;
+}
+ .header-list ul {
+	 text-shadow:10px gray;
+
+	float: right;
+	list-style-type: none;
+	margin-top: 20px;
+	margin-right:50px;
+}
+.header-list ul li{
+	display: inline-block; 
+	padding:10px 10px;
+	
+	
+}
+.header-list ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 10px 15px;
+	transition: 0.6s ease;
+}
+.header-list ul li a:hover, select:hover{
+	font-weight:6px;
+	color:#00bfff;	
+}
+.header-list select{
+	border:0px;
+}
+.btn{
+	width:200px;
+  padding:10px;
+  background-color:#00bfff;
+  border:1px solid none;
+  
+}
+.btn:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.top
+{
+    background-color: #45dff9;
+    font-weight: normal;
+    color: white;
+    padding: 90px 90px 90px 310px;
+    margin-top: 90px;
+}
+.container
+{
+    width:900px;
+    margin:auto;
+    text-align: justify;
+}
+.header
+{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    margin-top:0px;
+}
+p
+{
+    margin-top:0px;
+
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #655a55;
+}
+.box1
+{
+    background-color:white;
+    width:550px;
+    box-shadow: 2px 2px 2px 3px #ebebeb;
+    float: left;
+}
+.btn
+{
+    margin-left: 180px;
+    margin-bottom: 25px;
+    margin-top:10px;
+    box-shadow: 1px 1px 0px 1px gray;
+}
+.btn:hover
+{
+    box-shadow: 1px 1px 1px 2px gray;
+}
+.boxhead
+{
+    background-color:#31c5ff;
+    font-size:20px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    padding:10px;
+    margin-top: 0px;
+}
+button
+{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+.box2
+{
+    background-color: white;
+    width:280px;
+    box-shadow: 2px 2px 2px 3px #ebebeb;
+    float: right;
+    margin-bottom: 10px;
+}
+li
+{
+    list-style:circle;
+    font-size: 15px;
+    margin-top: 0px;
+    line-height: 1.9em;
+}
+.content
+{
+    margin-right: 10px;
+}
+.box3
+
+{
+    margin-top:320px;
+    background-color: white;
+    width:280px;
+    box-shadow: 2px 2px 2px 3px #ebebeb;
+    margin-left: 620px;
+    margin-bottom: 10px;
+}
+}

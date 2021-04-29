@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Times New Roman;
+}
+.header{
+	background-color:#fff;
+	height:100px;
+	
+	
+}
+.outer{
+	display:inline-block;
+	position:relative;
+}
+.inner{
+	display:none;
+	position:relative;
+	z-index:10;
+	background-color:white;
+
+	
+}
+.outer:hover .inner{
+	display:block;
+	position:absolute;
+}
+.header-logo img{
+	float:left;
+	padding:20px 20px;	
+	left:0px;
+	width: 200px;
+	height: auto;
+}
+ .header-list ul {
+	 text-shadow:10px gray;
+
+	float: right;
+	list-style-type: none;
+	margin-top: 20px;
+	margin-right:50px;
+}
+.header-list ul li{
+	display: inline-block; 
+	padding:10px 10px;
+	
+	
+}
+.header-list ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 10px 15px;
+	transition: 0.6s ease;
+}
+.header-list ul li a:hover, select:hover{
+	font-weight:6px;
+	color:#00bfff;	
+}
+.header-list select{
+	border:0px;
+}
+.btn{
+	width:200px;
+  padding:10px;
+  background-color:#00bfff;
+  border:1px solid none;
+  
+}
+.btn:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.main{
+	background-color:#dee7ec;
+}
+.copy-container{
+	
+	height:auto;
+	background-color:#16E7F3;
+	padding-bottom:80px;
+}
+.copy-container p{
+	color:white;
+	padding-top:80px;
+	
+	font-size:30px;
+	margin-left:250px;
+}
+.copy-container1{
+	background-color:#fff;
+}
+.heading {
+	padding-top:75px;
+	font-size:40px;
+	color:#00bfff;
+	margin-left:250px;
+}
+.highlight{
+	color:red;
+	margin-left:250px;
+	font-size:20px;
+	padding-bottom:10px;
+}
+.contents {
+	width:70%;
+	margin-left:270px;
+	font-size:20px;
+	padding-bottom:20px;
+	color:gray;
+}
+.footer{
+	padding:50px;
+	
+}
+.footer-icon p{
+	margin-left:800px;
+}
+.footer-icon img{
+	float:right;
+}
+#app{
+	
+	margin-right:500px;
+	margin-top:15px;
+	
+}
+#play{
+	margin-left:550px;
+	margin-top:-80px;
+}
+#app1{
+	margin-right:400px;
+	margin-top:-80px;
+}
+.fa-facebook{
+	float:right;
+	color:blue;
+	margin-top:-80px;
+	margin-right:300px;
+}
+.fa-linkedin{
+	float:right;
+	
+	margin-top:-80px;
+	margin-right:250px;
+}
+.fa-twitter{
+	float:right;
+	margin-top:-80px;
+	margin-right:200px;
+}
+.footer-icon1 a{
+	color:black;
+}
+.footer-icon1 p{
+	margin-top:-20px;
+	margin-left:1100px;
+	
+}
+.footer-list{
+	float:left;
+	margin-right:40px;
+}
+.footer-list ul{
+	list-style-type:none;
+}
+.footer-list ul a{
+	text-decoration:none;
+	color:#000;
+}

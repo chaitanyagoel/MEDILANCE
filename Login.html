@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css\stylel.css">
+        <link rel="stylesheet" href="V:\WT\fontawesome-free-5.12.1-web\css\all.css">
+    </head>
+    <body>
+        <div class="Container">
+                <img src="V:\WT\whyMedu.png" height=550>
+                <div class="content">
+                    <ul type="none">
+                        <li class="firstli"><a href="#">Login</a></li>
+                        <li class="secli"><a href="Signup.html" >Sign Up</a></li>
+                    </ul>
+                    <form action="" method="POST">
+                    <input type="text" name=""placeholder="Mobile or Email" class="mobile"><br><br>
+                    <input type="password" name=""placeholder="Password" class="pwd">    <br><br>
+                    <button id="btn" onmouseover="f1()" onmouseout="f2()">Log In</button>    
+                    <hr>
+                    </form>
+                    <h4>or continue via</h4>      
+                    <i class="fab fa-facebook fa-3x"></i>  <i class="fab fa-google-plus fa-3x"></i><br>
+                    <p>By logging in you agree to our <a href="#">T&C</a>,<a href="#">refunds </a>and <a href='#'>privacy policy</a>.</p>  
+                    <h4 class="fp"><a href="#">Forgot Password</a></h4>    
+                </div>
+            </div>
+    </body>
+    <script type="text/javascript">
+        function f1()
+        {
+          document.getElementById("btn").style.boxShadow="3px 3px black";
+        }
+        function f2()
+        {
+          document.getElementById("btn").style.boxShadow="0px 0px white";
+        }
+
+    </script>
+</html>

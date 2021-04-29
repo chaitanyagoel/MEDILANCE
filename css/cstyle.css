@@ -1,0 +1,157 @@
+.header{
+	background-color:#fff;
+	height:100px;
+	width:100%;
+	z-index:1;
+	
+}
+.outer{
+	display:inline-block;
+	position:relative;
+}
+.inner{
+	display:none;
+	position:relative;
+	z-index:10;
+	background-color:white;
+
+	
+}
+.outer:hover .inner{
+	display:block;
+	position:absolute;
+}
+.header-logo img{
+	float:left;
+	padding:0px;
+	left:0px;
+	width: 250px;
+	height: auto;
+}
+ .header-list ul {
+	 text-shadow:10px gray;
+
+	float: right;
+	list-style-type: none;
+	margin-top: 20px;
+	margin-right:50px;
+}
+.header-list ul li{
+	display: inline-block; 
+	padding:10px 10px;
+	
+	
+}
+.header-list ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 10px 15px;
+	transition: 0.6s ease;
+}
+.header-list ul li a:hover, select:hover{
+	font-weight:6px;
+	color:#00bfff;	
+}
+.header-list select{
+	border:0px;
+}
+.btn{
+	width:200px;
+  padding:10px;
+  background-color:#00bfff;
+  border:1px solid none;
+  
+}
+.btn:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.top
+{
+    color:white;
+    margin-top:90px;
+    padding: 100px 0px 100px 280px;
+    font-weight: normal;
+    background:linear-gradient(to left,#04d7e3,#54e0fe);
+}
+.content
+{
+    width:900px;
+    margin-left:280px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+.left-content h1
+{   
+    color:#04d7e3;
+    font-weight: normal;
+}
+.left-content table
+{
+    float: left;
+}
+.right-content 
+{
+    float:right;
+    border-left: 2px solid red;
+    padding-left: 50px;
+    margin-bottom: 200px;
+}
+.right-content p
+{
+    font-size: 20px;
+    text-align: justify;
+}
+input[type=text]
+{
+    border: none;
+    border-bottom: 2px solid red;
+    padding: 3px 0px 3px 10px;
+    width:180px;
+}
+input[type=number]
+{
+    border: none;
+    border-bottom: 2px solid red;
+    padding: 3px 0px 3px 10px;
+    width:180px;
+}
+input[type=email]
+{
+    border: none;
+    border-bottom: 2px solid red;
+    padding: 3px 0px 3px 10px;
+    width:180px;
+}
+.in
+{
+    border: none;
+    border-bottom: 2px solid red;
+    padding: 3px 0px 3px 10px;
+    width:360px;
+}
+textarea
+{
+    width:360px;
+    height:100px;
+    border: none;
+    border-bottom: 2px solid red;
+    
+}
+#btn
+{
+    background-color: #04d7e3;
+    color: white;
+    border: none;
+    padding: 15px 40px 15px 40px;
+    margin-left:100px;
+    border-radius: 10px;
+}
+#btn:hover
+{
+    box-shadow: 2px 2px 6px 1px gray;
+}
+#req
+{
+    color: red;
+    font-size: 12px;
+}

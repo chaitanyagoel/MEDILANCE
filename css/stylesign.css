@@ -1,0 +1,97 @@
+.Container
+{   width: 800px;
+    margin: auto;
+    margin-top:80px;
+    border: 1px black solid;   
+}
+.content
+{
+    float:right;
+
+}
+.firstli
+{
+    float:left;
+    padding-right:60px;
+    font-size:35px;
+    color:blue;
+    
+}
+.secli
+{
+    float: right;
+    padding-left:30px;
+    font-size:30px;
+    color:blue;
+    margin-right:30px;
+    border-bottom: 5px solid blue;
+}
+
+#btn
+{
+ background-color:orangered;
+ color: white;
+ width: 100px;
+ height: 40px;
+ margin-top: 20px;
+ border-radius: 10px;
+
+}
+a
+{
+text-decoration: none;
+color: blue;
+}
+.fp
+{
+    text-align:center;
+}
+
+.fa-google-plus
+{
+    margin-left: 50px;
+}
+.name
+{
+    margin-top: 30px;
+    width:400px;
+    border:none;
+    font-size: 20px;
+    color:gray;
+    padding:8x;
+    border-bottom: red 2px solid;
+}
+.mobile
+{
+    margin-top: 20px;
+    width:400px;
+    border:none;
+    font-size: 20px;
+    color:gray;
+    padding:8x;
+    border-bottom: red 2px solid;
+}
+.email
+{
+    margin-top: 20px;
+    width:400px;
+    border:none;
+    font-size: 20px;
+    color:gray;
+    padding:8x;
+    border-bottom: red 2px solid;
+}
+.pwd
+{
+    margin-top: 20px;
+    width:400px;
+    border:none;
+    font-size: 20px;
+    color:gray;
+    padding:8x;
+    border-bottom: red 2px solid;
+}
+.cbox
+{
+    margin:0px;
+}
